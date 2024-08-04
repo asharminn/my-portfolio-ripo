@@ -118,7 +118,57 @@ left: 70%;
 .botton{
     background-color: orange;
     color: white;
+    font-weight: 900;
     padding: 10px;
     border-radius: 10px;
     line-height: 5;
+}
+.main{
+    height: 100vh;
+    width: 100vw;
+    background: cadetblue;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.main h1{
+    position: absolute;
+    color:orange;
+    font-size:60px;
+    margin-top: 6%;
+    text-align: center;
+
+}
+.box{
+    height:360px;
+    width: 300px;
+    background-color: rgb(9, 129, 133);
+    margin-top: 15%;
+    border-radius: 10%;
+    text-align: center;
+}
+.box img{
+    height: 60px;
+    width: 60px;
+    margin:15px 0px ;
+
+}
+.box h3{
+    font-weight: 800;
+    color: white;
+    margin-bottom:20px ;
+}
+.box p{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 25px;
+}
+.boxbtn{
+    margin-top: 50px;
+    padding: 10px 30px;
+    border-radius: 10px;
+    border: none;
+    font-weight: 800;
+    text-transform: uppercase;
+    cursor: pointer;
 }
